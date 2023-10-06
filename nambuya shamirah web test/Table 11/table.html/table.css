@@ -1,0 +1,14 @@
+table,tr,td,th{
+    border: 1px solid;
+}
+table, th, td {
+    border: 1px solid black; border-collapse: collapse;
+}
+
+table,td  {
+    background-color: palegreen;
+}
+
+r:nth-child(even),td {
+    background-color: darkgreen;
+}
